@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url("bg1.jpg") no-repeat;
+    background-size: cover;
+    background-color: rgb(200, 200, 200);
+}
+nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  nav .logo {
+    height: 100px;
+    display: flex;
+    padding-left: 2%;
+  }
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  
+  }
+  nav .menu a:hover{
+    color: black;
+  }
+  
+  nav .menu a:first-child {
+    color: white;
+  }
+
+.login-form{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: aliceblue;
+}
+.login-form h1{
+  font-size: 40px;  
+  text-align: center;
+  text-transform: lowercase;
+  margin: 40px 0;
+}
+.login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+    color: black;
+
+}
+.login-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.login-form button{
+  
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+   width: 50%;
+    border-radius: 5px; 
+    
+}
+.login-form button:hover{
+  background-color: rgb(0, 247, 255);
+}

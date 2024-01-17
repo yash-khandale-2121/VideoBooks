@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(bg2.jpg) no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+    background-color: rgb(200, 200, 200);
+    }
+
+nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+nav .logo {
+    height: 100px;
+    display: flex;
+    padding-left: 2%;
+  }
+  
+nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  nav .menu a:hover{
+    color: black;
+  }
+  
+nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+nav .logo {
+    height: 100px;
+    display: flex;
+    padding-left: 2%;
+  }
+  
+nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+nav .menu a:first-child {
+    color: white;
+  }
+  
+.feed-box{
+top: 20%;
+left: 35%;
+position: absolute;
+transform: translate(-50%,-50);
+width: 350px;
+}
+.feed-box h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.feed-box input{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px sold #030505;
+}
+.feed-box input:focus{
+    border: 1px solid black;
+}
+
+.feed-box textarea{
+    width: 100%;
+    height: 150px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #101415;
+}
+.feed-box textarea:focus{
+    border:0px;
+    padding: 10px 30px;
+    background: #ffffff;
+}
+.feed-box button{
+    border: 0;
+    padding: 10px 30px;
+    background: #17e0ff;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+}
+.feed-box button:hover{
+  background-color:rgb(0, 255, 179) ;
+  color: #101415;
+}
